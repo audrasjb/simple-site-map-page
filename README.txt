@@ -1,18 +1,21 @@
 === Simple Site Map Page ===
 Contributors: audrasjb,whodunitagency
-Tags: site map, site map page, html site map, plan du site, plan de site, html, map, site, sitemap, page
+Tags: site map, site map page, html site map, plan du site, plan de site, html, map, site, sitemap, menu
 Requires at least: 4.5
 Tested up to: 4.7.2
 Stable tag: 1.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Build your HTML site map page easily.
+Build your HTML site map page easily with WordPress native menus.
 
 == Description ==
 
 Simple Site Map Page can be used to build a HTML site map page easily. 
-It uses WordPress native menus so you can customize your site map yourself.
+
+It uses WordPress native menus manager so you can customize your site map yourself, and it’s translation ready (Polylang, WPML and others).
+
+Native WP menu manager is good to choose exactly what can be displayed or not in the site map, e.g if you want to prevent visitors to access private parts of your website.
 
 **Credits** : 
 
@@ -25,13 +28,16 @@ Add your own language pack on GlotPress or do pull requests on [Github](https://
 1. Install the plugin and activate.
 2. Go to Reading options to select the sitemap page.
 3. Go to Appearance &gt; Menus to build your site map and register it under "Site map" location.
-4. Done! The site map will appear under the page's main content.
+4. Done! The site map will be displayed under the page main content.
 
 == Frequently Asked Questions ==
 
 = My site map doesn’t appear on the selected page =
 
 After selecting your site map page in reading options, you have to build a new menu in Appearance &gt; Menus and register it under the "Site map" location. See the screenshots provided for visual indications.
+
+= Can I use custom CSS styles? =
+Sure! The site map list markup is wrapped with `<div class="menu-site-map-menu-container"><ul id="menu-site-map-menu" class="ssmp simple-site-map"> … </ul></div>`
 
 == Screenshots ==
 

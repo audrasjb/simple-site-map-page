@@ -59,7 +59,7 @@ function ssmp_settings_selectpage_callback() {
 		array(
 			'name' => 'ssmp_settings[ssmp_page]',
 			'echo' => 1,
-			'show_option_none' => __( '&mdash; Select &mdash;' ),
+			'show_option_none' => __( '&mdash; Select &mdash;', 'ssmp' ),
 			'option_none_value' => '',
 			'selected' => $optionPage
 		)
@@ -71,7 +71,8 @@ function ssmp_settings_selectpage_callback() {
  * Menu location
  *
  */
-function register_ssmp_menu() {
+function ssmp_register_menu() {
   register_nav_menu('ssmp', __( 'Site map' ));
 }
-add_action( 'init', 'register_ssmp_menu' );
+add_action( 'init', 'ssmp_register_menu' );
+
