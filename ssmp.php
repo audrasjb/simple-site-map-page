@@ -1,13 +1,13 @@
 <?php
 
 /**
- * @link              https://jeanbaptisteaudras.com/portfolio/wordpress-reading-progressbar-indicator-plugin/
+ * @link              https://jeanbaptisteaudras.com/portfolio/extension-wordpress-plan-de-site/
  * @since             1.0
  * @package           Simple Site Map Page
  *
  * @wordpress-plugin
  * Plugin Name:       Simple Site Map Page
- * Plugin URI:        https://jeanbaptisteaudras.com/portfolio/wordpress-reading-progressbar-indicator-plugin/
+ * Plugin URI:        https://jeanbaptisteaudras.com/portfolio/extension-wordpress-plan-de-site/
  * Description:       Build your HTML site map page easily with WordPress native menus.
  * Version:           1.0
  * Author:            Jean-Baptiste Audras, project manager @ Whodunit
