@@ -7,15 +7,17 @@ Stable tag: 1.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Build your HTML site map page easily with WordPress native menus.
+Build your HTML site map page easily and manually with WordPress native menus.
 
 == Description ==
 
-Simple Site Map Page can be used to build a HTML site map page easily. 
+Simple Site Map Page can be used to build a HTML site map page easily and manually. 
 
 It uses WordPress native menus manager so you can customize your site map yourself, and it’s translation ready (Polylang, WPML and others).
 
-Native WP menu manager is good to choose exactly what can be displayed or not in the site map, e.g if you want to prevent visitors to access private parts of your website.
+Native WP menu manager is good to choose exactly what must be displayed or not in the site map, e.g if you want to prevent visitors to access private parts of your website.
+
+If you use custom links of with `#` target, we will remove the link. It can be usefull to create unlinked virtual pages to structure your sitemap.
 
 **Credits** : 
 
@@ -36,8 +38,12 @@ Add your own language pack on GlotPress or do pull requests on [Github](https://
 
 After selecting your site map page in reading options, you have to build a new menu in Appearance &gt; Menus and register it under the "Site map" location. See the screenshots provided for visual indications.
 
+= How to setup virtual pages without link? =
+
+Use custom link and the target / URL `#`. It will be automatically converted into simple `<span>` element instead of `<a href="#">`.
+
 = Can I use custom CSS styles? =
-Sure! The site map list markup is wrapped with `<div class="menu-site-map-menu-container"><ul id="menu-site-map-menu" class="ssmp simple-site-map"> … </ul></div>`
+Sure! The site map list markup is wrapped with `<div class="menu-site-map-menu-container"><ul id="menu-site-map-menu" class="ssmp simple-site-map"> … </ul></div>` so you can customize it quite easily.
 
 == Screenshots ==
 
