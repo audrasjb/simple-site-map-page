@@ -1,0 +1,69 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Site Map Page\n"
+"POT-Creation-Date: 2017-02-20 22:11+0100\n"
+"PO-Revision-Date: 2017-02-20 22:14+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: ssmp.php\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/ssmp-admin.php:31 admin/ssmp-admin.php:37
+msgid "Site map page"
+msgstr "Page de plan du site"
+
+#: admin/ssmp-admin.php:49
+msgid ""
+"Once the site map page is defined, you should go to <em>Appearance &gt; "
+"Menus</em>, build your site map and register it in the <em>Site Map</em> "
+"location. <br />The site map will automatically appear under the content of "
+"the selected page."
+msgstr ""
+"Une fois que la page de plan de site est choisie, vous devez aller dans "
+"<em>Apparence &gt; Menus</em> pour construire votre plan de site et "
+"l’enregistrer dans l’emplacement <em>Plan du site</em>. Le plan du site "
+"s’affichera automatiquement sous le contenu de la page sélectionnée."
+
+#: admin/ssmp-admin.php:62
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Sélectionner &mdash;"
+
+#: admin/ssmp-admin.php:75
+msgid "Site map"
+msgstr "Plan du site"
+
+#. Plugin Name of the plugin/theme
+msgid "Simple Site Map Page"
+msgstr "Simple Site Map Page"
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://jeanbaptisteaudras.com/portfolio/extension-wordpress-plan-de-site/"
+msgstr ""
+"https://jeanbaptisteaudras.com/portfolio/extension-wordpress-plan-de-site/"
+
+#. Description of the plugin/theme
+msgid "Build your HTML site map page easily with WordPress native menus."
+msgstr ""
+"Construisez votre page HTML de plan de site facilement avec les menus "
+"natifs WordPress."
+
+#. Author of the plugin/theme
+msgid "Jean-Baptiste Audras, project manager @ Whodunit"
+msgstr "Jean-Baptiste Audras, chef de projet chez Whodunit"
+
+#. Author URI of the plugin/theme
+msgid "http://jeanbaptisteaudras.com"
+msgstr "http://jeanbaptisteaudras.com"
