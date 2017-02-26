@@ -28,13 +28,13 @@ function ssmp_settings_init() {
 	register_setting('reading', 'ssmp_settings');
 	add_settings_section(
 		'ssmp_settings_section',
-    	__('Site map page', 'ssmp'),
+    	__('Site map page', 'simple-site-map-page'),
 		'ssmp_settings_section_callback',
 		'reading'
 	);
 	add_settings_field(
 		'ssmp_settings',
-		__('Site map page', 'ssmp'),
+		__('Site map page', 'simple-site-map-page'),
 		'ssmp_settings_selectpage_callback',
 		'reading',
 		'ssmp_settings_section'
@@ -46,7 +46,7 @@ add_action('admin_init', 'ssmp_settings_init');
  * callback functions
  */
 function ssmp_settings_section_callback() {
-	echo '<p>' . __('Once the site map page is defined, you should go to <em>Appearance &gt; Menus</em>, build your site map and register it in the <em>Site Map</em> location. <br />The site map will automatically appear under the content of the selected page.', 'ssmp') . '</p>';
+	echo '<p>' . __('Once the site map page is defined, you should go to <em>Appearance &gt; Menus</em>, build your site map and register it in the <em>Site Map</em> location. <br />The site map will automatically appear under the content of the selected page.', 'simple-site-map-page') . '</p>';
 }
 function ssmp_settings_selectpage_callback() {
 	$options = get_option('ssmp_settings');

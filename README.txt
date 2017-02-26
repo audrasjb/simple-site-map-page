@@ -17,7 +17,7 @@ It uses WordPress native menus manager so you can customize your site map yourse
 
 Native WP menu manager is good to choose exactly what must be displayed or not in the site map, e.g if you want to prevent visitors to access private parts of your website.
 
-If you use custom links of with `#` target, we will remove the link. It can be usefull to create unlinked virtual pages to structure your sitemap.
+If you use custom links with `#` target, ce plugin will automatically remove the link and replace it with a `<span>` element. It can be usefull to create unlinked virtual pages to structure your sitemap.
 
 **Credits** : 
 
@@ -34,7 +34,7 @@ Add your own language pack on GlotPress or do pull requests on [Github](https://
 
 == Frequently Asked Questions ==
 
-= My site map doesn’t appear on the selected page =
+= My site map doesn’t appear on the selected page :( =
 
 After selecting your site map page in reading options, you have to build a new menu in Appearance &gt; Menus and register it under the "Site map" location. See the screenshots provided for visual indications.
 
@@ -52,6 +52,9 @@ Sure! The site map list markup is wrapped with `<div class="menu-site-map-menu-c
 3. Your site map appears under the page's main content.
 
 == Changelog ==
+
+= 1.1 =
+* Internationalization bug fix.
 
 = 1.0 =
 * Plugin initial commit. Works fine :)

@@ -14,7 +14,7 @@
  * Author URI:        http://jeanbaptisteaudras.com
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:       ssmp
+ * Text Domain:       simple-site-map-page
  * Domain Path:       /languages
  */
 
@@ -26,7 +26,7 @@ if ( ! defined( 'WPINC' ) ) {
 /**
  * i18n
  */
-load_plugin_textdomain( 'ssmp', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' ); 
+load_plugin_textdomain( 'simple-site-map-page', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' ); 
 
 /**
  * Admin
