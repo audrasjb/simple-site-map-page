@@ -9,7 +9,7 @@
  * Plugin Name:       Simple Site Map Page
  * Plugin URI:        https://jeanbaptisteaudras.com/portfolio/extension-wordpress-plan-de-site/
  * Description:       Build your HTML site map page easily with WordPress native menus.
- * Version:           1.0
+ * Version:           1.1
  * Author:            Jean-Baptiste Audras, project manager @ Whodunit
  * Author URI:        http://jeanbaptisteaudras.com
  * License:           GPL-2.0+
