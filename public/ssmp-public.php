@@ -24,6 +24,9 @@ function ssmp_display_sitemap( $content ) {
 	$newContent .= $content;
 	if ( get_option( 'ssmp_settings' ) ) {
 		$options = get_option('ssmp_settings');
+		if ( function_exists( 'pll__' ) ) {
+			$options['ssmp_page'] = pll_get_post( $options['ssmp_page'] );
+		}
 		if ( isset($options['ssmp_page']) && is_page($options['ssmp_page']) ) {
 			$optionPage = $options['ssmp_page'];
 			$newContent .= wp_nav_menu(
@@ -41,6 +44,9 @@ function ssmp_display_sitemap( $content ) {
 function ssmp_print_inline_script() {
 	if ( get_option( 'ssmp_settings' ) ) {
 		$options = get_option('ssmp_settings');
+		if ( function_exists( 'pll__' ) ) {
+			$options['ssmp_page'] = pll_get_post( $options['ssmp_page'] );
+		}
 		if ( wp_script_is( 'jquery', 'done' ) && is_page($options['ssmp_page']) ) {
 			?>
 			<script type="text/javascript">

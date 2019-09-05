@@ -1,16 +1,16 @@
 <?php
 
 /**
- * @link              https://jeanbaptisteaudras.com/portfolio/extension-wordpress-plan-de-site/
+ * @link              https://jeanbaptisteaudras.com
  * @since             1.0
  * @package           Simple Site Map Page
  *
  * @wordpress-plugin
  * Plugin Name:       Simple Site Map Page
- * Plugin URI:        https://jeanbaptisteaudras.com/portfolio/extension-wordpress-plan-de-site/
+ * Plugin URI:        https://jeanbaptisteaudras.com
  * Description:       Build your HTML site map page easily with WordPress native menus.
- * Version:           1.1
- * Author:            Jean-Baptiste Audras, project manager @ Whodunit
+ * Version:           1.2
+ * Author:            Jb Audras
  * Author URI:        http://jeanbaptisteaudras.com
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt

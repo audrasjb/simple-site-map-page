@@ -1,9 +1,11 @@
 === Simple Site Map Page ===
 Contributors: audrasjb,whodunitagency
+Donate link: https://www.paypal.me/audrasjb
 Tags: site map, site map page, html site map, plan du site, plan de site, html, map, site, sitemap, menu
 Requires at least: 4.5
-Tested up to: 4.7.2
-Stable tag: 1.1
+Tested up to: 5.3
+Requires PHP: 5.6
+Stable tag: 1.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -52,6 +54,12 @@ Sure! The site map list markup is wrapped with `<div class="menu-site-map-menu-c
 3. Your site map appears under the page's main content.
 
 == Changelog ==
+
+= 1.2 =
+- Polylang compatibility
+
+= 1.1.1 =
+- Gutenberg compatibility
 
 = 1.1 =
 * Internationalization bug fix.
